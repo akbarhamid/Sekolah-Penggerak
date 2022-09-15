@@ -1,4 +1,4 @@
-# sekolahpenggerak
+# Sekolah Penggerak
 
 Dicoding/Front-End Web/Belajar Dasar Pemrograman Web/Submission: Tugas Akhir Membuat Website
 
