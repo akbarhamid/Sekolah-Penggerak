@@ -155,7 +155,7 @@ nav > .navigation-header{
 
 .about-image{
   flex-basis: 40%;
-  background-image: url('../image/tentang_kami_image.png');
+  background-image: url('../image/tentang_image.png');
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -167,7 +167,7 @@ nav > .navigation-header{
   padding: 45px;
 }
 
-.about-description > h2,#campaign > h2, .motivator-caption > h2{
+.about-description > h2,#program > h2, .motivator-caption > h2{
   font-size: 45px;
 }
 
@@ -178,12 +178,12 @@ nav > .navigation-header{
   color: #606060;
 }
 
-#campaign{
+#program{
   padding:25px 70px 80px;
   text-align: center;
 }
 
-#campaign > h2{
+#program > h2{
   margin-top: 20px;
 }
 
@@ -194,20 +194,20 @@ nav > .navigation-header{
   margin: 20px auto 50px;
 }
 
-#campaign > p{
+#program > p{
   font-size: 22px;
   color: #606060;
   margin-bottom: 50px;
 }
 
-.campaign-container{
+.program-container{
   display: flex;
   align-items: center;
   padding: 10px 0px;
   margin-bottom: 40px;
 }
 
-.campaign-item{
+.program-item{
   box-shadow: 0 4px 4px 4px rgba(0,0,0,0.2);
   margin: 15px;
   flex-basis: 25%;
@@ -215,68 +215,55 @@ nav > .navigation-header{
   transition: margin-top 1s;
 }
 
-.campaign-item > a{
+.program-item > a{
   text-decoration: none;
   color: black;
 }
 
-.campaign-item:hover{
+.program-item:hover{
   margin-top: -40px;
 }
 
-.campaign-item > a > img{
+.program-item > a > img{
   width: 100%;
   object-fit: cover;
   height: 200px;
   border-radius: 5px 5px 0px 0px;
 }
 
-.campaign-description{
+.program-description{
   padding: 10px 20px;
   text-align: left;
 }
 
-.campaign-location{
+.program-level{
   display: flex;
   align-items: center;
   margin-top: 8px;
   margin-bottom: 25px;
 } 
 
-.campaign-location > p{
+.program-level > p{
   margin-left: 10px;
   color: #606060;
   font-size: 14px;
   font-weight: lighter;
 }
 
-progress{
-  width:100%;
+.program-caption{
+  color:#212529;
 }
 
-.campaign-status{
-  display: flex;
-  justify-content: space-between;
+.program-caption > p{
+  text-align: justify;
 }
 
-.campaign-status-percent,.campaign-cash{
-  font-weight: bold;
-  display: inline;
-  
-}
-
-.campaign-cash{
-  text-align: right;
-}
-
-.campaign-time{
+.program-time{
   margin: 20px 0px 10px;
-  display: flex;
-  align-items: center ;
 }
 
-.campaign-time p{
-  margin-left: 10px;
+.program-time p{
+  margin-left: 0px;
   display: inline;
   color: #606060;
 }
@@ -647,20 +634,20 @@ tr:nth-child(odd){
       height: 500px;
   }
 
-  #campaign{
+  #program{
       padding-bottom:70px !important;
       text-align: center;
   }
 
-  .campaign-container{
+  .program-container{
       flex-direction: column;
   }
 
-  .campaign-item{
+  .program-item{
       transition: none;
   }
 
-  .campaign-item:hover{
+  .program-item:hover{
       margin-top: 15px !important;
   }
 
@@ -760,7 +747,7 @@ tr:nth-child(odd){
       margin-bottom: 20px;
   }
 
-  .campaign-item{
+  .program-item{
       flex-basis: 60%;
   }
 
@@ -790,11 +777,11 @@ tr:nth-child(odd){
       display: none;
   }
 
-  #campaign{
+  #program{
       padding:15px 10px;
   }
 
-  .campaign-item{
+  .program-item{
       flex-basis: 60%;
   }
 
